@@ -19,7 +19,7 @@ namespace Freshdesk
         {
             httpClient = new HttpClient();
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
-            httpClient.BaseAddress = new Uri("https://siddharth.freshdesk.com/api/v2/");
+            httpClient.BaseAddress = new Uri("https:///");
             httpClient.DefaultRequestHeaders
               .Accept
               .Add(new MediaTypeWithQualityHeaderValue("application/json"));
